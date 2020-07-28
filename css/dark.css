@@ -1,21 +1,36 @@
-body {
-    background-color: rgb(20, 20, 20);
-    color: white;
-}
-
-::-moz-selection {
-    /* Code for Firefox */
-    color: black;
-    background: white;
-}
-
-::selection {
-    color: black;
-    background: white;
-}
-
-.box {
-    background-color: rgba(0, 0, 0, 0.9) !important;
-    -webkit-backdrop-filter: blur(5px) !important;
-    backdrop-filter: blur(5px) !important;
-}
+        body {
+            background-color: rgb(20, 20, 20);
+            color: white;
+        }
+        
+         ::-moz-selection {
+            /* Code for Firefox */
+            color: black;
+            background: white;
+        }
+        
+         ::selection {
+            color: black;
+            background: white;
+        }
+        
+        .box {
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            -webkit-backdrop-filter: blur(5px) !important;
+            backdrop-filter: blur(5px) !important;
+        }
+        
+        .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+            border-bottom: 1px solid #4dd0e1;
+            box-shadow: 0 1px 0 0 #4dd0e1;
+        }
+        
+        .active-cyan input.form-control[type=text] {
+            border-bottom: 1px solid #4dd0e1;
+            box-shadow: 0 1px 0 0 #4dd0e1;
+        }
+        
+        .active-cyan .fa,
+        .active-cyan-2 .fa {
+            color: #4dd0e1;
+        }
