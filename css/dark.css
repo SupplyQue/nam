@@ -19,3 +19,7 @@
             -webkit-backdrop-filter: blur(5px) !important;
             backdrop-filter: blur(5px) !important;
         }
+        
+        #inner {
+            transition: transform 0.5s;
+        }
