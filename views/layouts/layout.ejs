@@ -1,15 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/uikit.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-table.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Dark or Light -->
+    <title>SQ - Home</title>
+    <style>
+        body {
+            padding-top: 100px;
+        }
+        
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>hi</h1>
-    <%- body %>
+    <!-- Nav start -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-2 shadow-sm box">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#"><span style="font-size: 40px; font-family: sq;">SQ</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                  </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto d-flex justify-content-between">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Services
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Shops near me</a>
+                            <a class="dropdown-item" href="#">Cart-vendors near me</a>
+                            <!-- <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Team</a>
+                    </li>
+                </ul>
+                <form class="form-inline" style="margin-top: 18px;">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary btntheme" type="submit">Search</button>
+                </form>
+                <button type="button" class="btn btn-primary btntheme" style="margin-left: 40px;">Log In</button>
+            </div>
+        </div>
+    </nav>
+    <style>
+        /* Make the image fully responsive */
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 60%;
+        }
+    </style>
+    <div id="demo" class="carousel slide" data-ride="carousel" style="max-width: 100%; margin-left: 40px;margin-right: 40px;">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/combined two shutterstock imgs.png" alt="Our motive" width="1000" height="500">
+                <div class="carousel-caption">
+                    <h3>SupplyQue</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/eximg2.jpg" alt="our offers" width="1000" height="500">
+                <div class="carousel-caption">
+                    <h3>SupplyQue</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/eximg3.jpg" alt="our partners" width="1000" height="500">
+                <div class="carousel-caption">
+                    <h3>book your slot</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 45rem; margin-top: 20px; margin-left: 20px;margin-right: 20px;">
+                    <div class="card-header">Invite nearby vendors</div>
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Invite</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 45rem; margin-top: 20px;margin-left: 20px;margin-right: 20px;">
+                    <div class="card-header">Register your business</div>
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-dark mb-3" style="max-width: 45rem; margin-top: 20px; margin-right: 20px; margin-left: 20px;">
+                    <div class="card-header">Support us</div>
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
+
+
 
 </html>
