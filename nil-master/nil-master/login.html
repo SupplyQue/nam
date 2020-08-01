@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap core CSS -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/light.css"> <!-- Dark or Light -->
+<link rel="stylesheet" type="text/css" href="css/light.css"> <!-- Light or Dark -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <style>
@@ -34,23 +34,19 @@
   <span style="font-size: 40px; font-family: sq;">SQ</span>
   <br>
   <hr class="greyy">
-  <h1 class="h4 mb-3 font-weight-normal">Create your Q-id</h1>
-  <label for="Name" class="sr-only">Name</label>
-  <input class="form-control" placeholder="Name" style="border-radius: 0px !important;" required autofocus>
-
+  <h1 class="h4 mb-3 font-weight-normal">Please sign in</h1>
   <label for="inputEmail" class="sr-only">Email address</label>
-  <input class="form-control" placeholder="Email address" style="border-radius: 0px !important;" required autofocus>
-
+  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
   <label for="inputPassword" class="sr-only">Password</label>
-  <input class="form-control" placeholder="Password" style="border-radius: 0px !important;" required>
-
-  <label for="inputPassword" class="sr-only">Confirm Password</label>
-  <input class="form-control" placeholder="Confirm Password" style="border-radius: 0px !important;" required>
-
+  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
   <br>
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
-  <br>
-  Already have an account? <a href="login.html">Sign in</a>
+    Don't have an account? <a href="register.html">Register</a>
   <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
 </form>
 </body>

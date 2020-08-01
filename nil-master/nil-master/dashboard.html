@@ -8,13 +8,9 @@
 	<!-- BS End -->
 	<!-- Custom CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/dark.css"> <!-- Dark or Light -->
+	<link rel="stylesheet" type="text/css" href="css/light.css"> <!-- Dark or Light -->
 	<!-- Custom CSS End -->
-	<!-- Map CSS -->
-	
-	<!-- Map CSS End -->
-
-	<title>SQ - Stores</title>
+	<title>SQ - Dashboard</title>
 	<style>
       body { padding-top: 120px; }
       .bd-placeholder-img {
@@ -35,7 +31,7 @@
 </head>
 <body>
 	<!-- Nav start -->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark py-2 shadow-sm box">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light py-2 shadow box">
 		<div class="container d-flex justify-content-between">
 			<a class="navbar-brand" href="#"><span style="font-size: 40px; font-family: sq;">SQ</span></a>
 			<!-- Simplify Supply -->
@@ -68,7 +64,7 @@
     					Hi User!
   					</button>
 					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					    <a class="dropdown-item" href="dashboard.html">Dashboard</a>
+					    <a class="dropdown-item" href="#">Dashboard</a>
 					    <a class="dropdown-item" href="#">Settings</a>
 					    <a class="dropdown-item" href="#">My Orders</a>
 					    <a class="dropdown-item" href="#">Log out</a>
@@ -82,35 +78,50 @@
   		<img draggable="false" class="emoji" alt="🇮🇳" src="img/india.svg" width="40" height="20" style="padding-bottom: 2px;">
   	</div>
   	<div class="container">
-  		<div class="card">
-  			<div class="card-body bg-dark text-white">
-    			<!-- <div id="mapid"></div> -->
-    			<div id="map"></div>
+  		<h1 style="text-align: center; font-size: 50px;">
+  			Hello, Pratik
+  		</h1>
+  		<br>
+  		<div class="row">
+  			<div class="col-md-4 d-flex justify-content-center">
+  				<div class="card text-dark bg-light shadow-lg" style="width: 18rem; margin-bottom: 10px;">
+				  <img src="img/woman-shopping-1727684.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+				    <h5 class="card-title">Stores</h5>
+				    <p class="card-text">Book a slot and visit the store!</p>
+				    <a href="#" class="btn btn-primary">Stores near me</a>
+				  </div>
+				</div>
   			</div>
-		</div>
+  			<hr>
+  			<div class="col-md-4 d-flex justify-content-center">
+  				<div class="card text-dark bg-light shadow-lg" style="width: 18rem; margin-bottom: 10px;">
+				  <img src="img/man-buying-vegetable-from-cart-2132350.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+				    <h5 class="card-title">Cart Vendors</h5>
+				    <p class="card-text">Check out which vendor is coming to your locality with fresh stock!</p>
+				    <a href="#" class="btn btn-primary">Cart-vendors near me</a>
+				  </div>
+				</div>
+  			</div>
+  			<br>
+  			<div class="col-md-4 d-flex justify-content-center">
+  				<div class="card text-dark bg-light shadow-lg" style="width: 18rem; margin-bottom: 10px;">
+				  <img src="img/assorted-assortment-booth-boxes-375897.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+				    <h5 class="card-title">Your Store</h5>
+				    <p class="card-text">Update your stock data and maintain the queue at your store</p>
+				    <a href="#" class="btn btn-primary">Handle Business</a>
+				  </div>
+				</div>
+  			</div>
+  			<br>
+  		</div>
   	</div>
 </body>
-
-<!-- Db -->
-<script type="text/javascript" src="db/powai.js"></script>
-<!-- Db End -->
-
 <!-- Standard JS -->
 <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-table.min.js"></script>
 <!-- Standard JS End -->
-<!-- Map JS -->
-
-<!-- Map JS End -->
-
-<!-- Raw JS -->
-
-<script>
-
-
-</script>
-
-<!-- Raw JS End -->
-
 </html>																																																			
