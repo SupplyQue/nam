@@ -7,7 +7,7 @@ const expressLayouts = require('express-ejs-layouts')
 const indexRouter = require('./routee/index')
 const { param } = require('./routee/index')
 
-
+//life sucks//
 
 app.set('view engine', 'ejs')
 app.set('views', __dirname + '/views')
