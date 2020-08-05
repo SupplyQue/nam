@@ -1,11 +1,7 @@
-hr.darkmode {
-    border-top: 1px solid gray;
-}
-
 
 /*Fonts start*/
-
-@font-face {
-    font-family: sq;
-    src: url(../fonts/ChauPhilomeneOne-Regular.woff) format("woff");
+@font-face{
+	font-family: sq;
+	src: url(../fonts/ChauPhilomeneOne-Regular.woff) format("woff");
 }
+/*Fonts end*/
